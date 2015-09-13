@@ -1,0 +1,33 @@
+{
+  "name": "relativify",
+  "version": "0.0.3",
+  "description": "把require基基于baseUrl的写法转成相对路径",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jinphen/relativify.git"
+  },
+  "keywords": [
+    "require",
+    "relative"
+  ],
+  "author": "jinphen@126.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jinphen/relativify/issues"
+  },
+  "engines": {
+    "iojs": ">= 1.0.0",
+    "node": ">= 0.12.0"
+  },
+  "homepage": "https://github.com/jinphen/relativify",
+  "dependencies": {
+    "co": "^4.6.0",
+    "commander": "^2.8.1",
+    "glob": "^5.0.14",
+    "thunkify": "^2.1.2"
+  }
+}
