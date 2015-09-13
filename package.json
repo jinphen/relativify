@@ -1,6 +1,6 @@
 {
   "name": "relativify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "把require基基于baseUrl的写法转成相对路径",
   "main": "index.js",
   "scripts": {
