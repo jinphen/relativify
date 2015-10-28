@@ -19,9 +19,9 @@ var extname = ['', '.js', '.jsx', '.html'];
 program
   .version(version)
   .usage('<path> [<path>] [options]')
-  .option('-d, --dir [dir]', 'Set special dir to resolve, default equal to base')
-  .option('-f, --file [file]', 'Set resolve file, if this set, --ext will not word')
-  .option('-e, --ext [exit]', 'Set file extention, eg: js,jsx, default js,jsx')
+  .option('-d, --dir [dir]', '设置转换目录，默认为当前目录')
+  .option('-f, --file [file]', '指定转换文件')
+  .option('-e, --ext [exit]', '文件名后缀，默认为js、jsx，指字文件后此参数无用')
   .parse(process.argv);
 
 if (program.args.length) {
