@@ -1,6 +1,6 @@
 {
   "name": "relativify",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "把require基基于baseUrl的写法转成相对路径",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jinphen/relativify.git"
+  },
+  "bin": {
+    "relativify": "./index.js"
   },
   "keywords": [
     "require",
